@@ -1,0 +1,479 @@
+.nav-row {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.permalink {
+    transition-duration: 0.5s;
+    border-radius: 30px;
+    box-shadow: 0px 0px 38px -5px #5858585e;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+}
+
+.permalink:hover {
+    transition-duration: 0.5s;
+    background: #cfcfcf;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.our-films {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.our-films .container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.kino-posts .container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.history .container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.form-container  figure {
+    max-width: 500px;
+    max-height: 450px;
+}
+
+.about .container-fluid {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: block;
+    text-align: left;
+    
+}
+
+.nav li a {
+
+    font-family: 'Helvetica';
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.trailer-col {
+    text-align: center;
+}
+
+.trailer-col iframe {
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+
+img {
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.slide-films {
+    margin-top: 0;
+}
+
+
+
+
+
+
+.carousel-inner img {
+    max-height: 1080px;
+}
+
+.carousel-caption {
+    bottom: 10%;
+    left: 5%;
+    right: auto;
+    text-align: left;
+}
+
+.title {
+    align-items: center;
+    padding-left: 50px;
+}
+
+
+.slider {
+    padding: 0;
+    justify-content: center
+}
+
+.film-title {
+        font-size: 48px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Helvetica';
+      
+}
+
+.film-date {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.trailer {
+    transition-duration: 0.5s;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.trailer:hover {
+    text-decoration-line: none;
+    transition-duration: 0.5s;
+    background: #fff;
+    color: #000;
+}
+
+
+
+.kino-posts {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sect-title {
+  margin-bottom: 50px;
+}
+
+.sect-title h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #929292;
+}
+
+.sect-title h2:after {
+    content: '_';
+    height: 5px;
+    max-width: 350px;
+    background: #007bff;
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.inner-header .nav-row {
+    position: static;
+
+}
+
+
+.inner-header .nav li a {
+    color: #000;
+}
+
+main {
+ min-height: 70vh;
+}
+
+.blog > .container-fluid {
+ padding-left: 10%;
+ padding-right: 10%;
+}
+
+.blog-row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.single-post {
+    margin-bottom: 30px;
+}
+
+
+
+
+.blog-row h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.inner-header .logo {
+    max-width: 230px;
+}
+
+
+.post-text {
+    padding: 15px;
+}
+
+
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer .container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+footer a {
+    display: block;
+}
+
+.contacts {
+    text-align: right
+}
+
+footer .label {
+    display: flex;
+    align-items: center
+}
+
+
+.carousel-control-prev {
+    width: 80px;
+}
+
+.carousel-control-next {
+    width: 80px;
+}
+
+
+.modal-content {
+   height: 500px;
+   width: 900px;
+}
+
+.modal-body {
+    width: 100%;
+    padding: 0;
+}
+
+.post-thumb {
+    margin: 25px;
+}
+
+.post-thumb img{
+    border-radius: 30px;
+    box-shadow: 0px 10px 38px 0px rgba(0,0,0,0.18);
+}
+
+.our-films .post-thumb img {
+height: 480px;
+
+}
+
+.kino-posts .post-thumb img {
+    height: 250px;
+  
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.BU .sub-title {
+    color: #000;
+}
+
+.modal-dialog .modal-dialog-centered {
+    display: flex;
+    justify-content: center;
+}
+
+
+.bg-dark {
+    background-color: #000 !important;
+    text-align: center;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+
+.sub-menu li a {
+    font-size: 20px;
+}
+
+
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+
+}
+
+
+
+}
+
+@media (min-width: 0px) and (max-width: 1500px) {
+    .our-films .post-thumb img  {
+       height: auto;
+    }
+    
+    }
+
+
+
+
+    @media (min-width: 0px) and (max-width: 1120px) {
+        .our-films .post-thumb img  {
+           height: auto;
+        }
+
+        .kino-posts .post-thumb img {
+            height: auto;
+        }
+
+      
+
+
+        .modal-content {
+            width: 100%;
+           max-width: 500px;
+        }
+        
+        
+        
+        
+        }
+
+        
+
+        @media (min-width: 0px) and (max-width: 1250px) {
+
+            
+.post-thumb {
+    margin: 10px;
+}
+            
+            
+            }
+
+        @media (min-width: 0px) and (max-width: 600px) {
+
+            .carousel-caption {
+                position: static;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                color: #000;
+                padding: 35px 25px 35px 25px;
+            }
+            
+            
+
+            .film-title {
+                font-size: 35px;
+            }
+
+            .film-date {
+                font-size: 20px;
+            }
+
+           
+          
+            .film-title, .trailer  {
+                color: #000;
+            }
+
+            .trailer {
+                transition-duration: 0.5s;
+                padding: 7px;
+                border: 3px solid rgb(0, 0, 0);
+                font-size: 15px;
+            }
+
+            .trailer:hover {
+                transition-duration: 0.5s;
+                background: #000;
+                color: #fff;
+            }
+
+            .carousel-inner {
+                -webkit-box-shadow: 0px 0px 52px 1px rgba(0,0,0,0.09);
+-moz-box-shadow: 0px 0px 52px 1px rgba(0,0,0,0.09);
+box-shadow: 0px 0px 52px 1px rgba(0,0,0,0.09);
+            }
+
+            .sect-title h2 {
+                font-size: 35px;
+            }
+
+        }
+            
+        
+
+        
+
+
+ 
+
+
+
+
+    
+
+
+@font-face {
+    font-family: 'fontf81dc6462c0ac26fdca85351e33cc687';
+        
+        src:    url('https://nomail.com.ua/files/eot/f81dc6462c0ac26fdca85351e33cc687.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/f81dc6462c0ac26fdca85351e33cc687.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/f81dc6462c0ac26fdca85351e33cc687.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'MullerBlack';  src: local('MullerBlack'), url('https://nomail.com.ua/files/woff/f81dc6462c0ac26fdca85351e33cc687.woff') format('woff'); }
+
+    @font-face {
+        font-family: 'Helvetica'; /* Имя шрифта */
+        src: url(../sfs/fonts/helvetica1.otf); /* Путь к файлу со шрифтом */
+       }
