@@ -15,7 +15,6 @@ get_header();
       <?php if (get_field('картинка_1', $term)) { 
          ?>
        <div class="row slider">
-         <div class="col-lg-12"><h2>Галерея</h2></div>
          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
              <div class="carousel-inner">
              <div class="carousel-item active">

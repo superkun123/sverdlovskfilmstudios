@@ -22,7 +22,7 @@ get_header();
 ?>
 
 
-<main class="blog">
+<main class="blog kino-posts">
     <div class="container-fluid">
     <div class="row blog-row">
       <div class="col-lg-12">

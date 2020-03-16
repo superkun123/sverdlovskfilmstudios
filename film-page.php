@@ -13,7 +13,7 @@
  */
 
 /*
-Template Name: Блог
+Template Name: Фильмы
 Template Post Type:  page
 */
 
@@ -26,11 +26,19 @@ get_header();
     <div class="container-fluid">
     <div class="row blog-row">
       <div class="col-lg-12">
-    <h2>Блог</h2>
+    <h2>Фильмы</h2>
 </div>
-    <?php
+<div class="row justify-content-center">
+  <div class="col-lg-8 text-center">
+    <p>Главной целью Свердловской киностудии было и остается производство художественных, документальных и анимационных фильмов. 
+      За последнее 15 лет на базе или при сопровождении киностудии было создано 12 художественных и более 80 документальных лен</p>
+  </div>
+</div>
+<div class="row our-films">
+<?php
 $posts = get_posts( array(
-  'category_name' => 'news',
+	'numberposts' => -1,
+  'category_name' => 'films',
 	'orderby'     => 'date',
 	'order'       => 'DESC',
 	'include'     => array(),
@@ -44,7 +52,7 @@ $posts = get_posts( array(
 foreach( $posts as $post ){
   setup_postdata($post);
   ?>
-  <div class="col-lg-4 single-post">
+  <div class="col-lg-3 single-post">
             <figure class="post-thumb">
             <?php echo the_post_thumbnail();?>
             </figure>
@@ -52,7 +60,7 @@ foreach( $posts as $post ){
               <h3><?php the_title() ?></h3>
               <p><?php the_excerpt() ?></p>
               <a href="<?php the_permalink()?>">
-              <button class="permalink">Подробнее </button>
+              <button class="permalink">Подробнее</button>
               </a>
             </div>
             </div>
@@ -61,6 +69,7 @@ foreach( $posts as $post ){
 
 wp_reset_postdata(); // сброс
 ?>
+</div>
    </div>
     </div>
 </main>

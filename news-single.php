@@ -24,24 +24,7 @@ get_header();
   <p><?php the_content()?></p>
   <!-- <a href="<?php the_permalink()?>">Подробнее</a> -->
 </div>
-<?php if (get_field('form', $term)) { 
-                      ?>
-  
-                       <h2>Свяжитесь с нами!</h2>
-                      <div class="row form-container">
-                        <div class="col-md-6">
-                       <?php echo do_shortcode('[contact-form-7 id="117" title="Шаблон контактной формы"]') ?> 
-                       </div>
-                       <div class="col-md-6">
-                       <figure>
-                       <img src="<?php echo get_template_directory_uri() ?>/img/call.png" alt="">
-                       </figure>
-                       </div>
-                     
-                       </div>
-                    <?php 
-                                 } // end if value
-                     ?>
+
 
       </div>
     </div>
@@ -137,11 +120,29 @@ get_header();
             <span class="sr-only">Next</span>
           </a>
         </div>
-  </div> 
   <?php 
 } // end if value
 ?>
   </div>
+  <?php if (get_field('form', $term)) { 
+    ?>
+
+    <div class="row form-container">
+      <div class="col-md-6">
+        <h2>Связаться с нами!</h2>
+     <?php echo do_shortcode('[contact-form-7 id="197" title="Шаблон контактной формы"]') ?> 
+     </div>
+     <div class="col-md-6">
+     <figure>
+     <img src="<?php echo get_template_directory_uri() ?>/img/call.png" alt="">
+     </figure>
+     </div>
+   
+     </div>
+  <?php 
+               } // end if value
+   ?>
+   </div>
 </section>
 </div>
 <?php endwhile; else : ?>

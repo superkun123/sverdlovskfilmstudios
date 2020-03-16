@@ -7,6 +7,8 @@ get_header();
 ?>
 
 
+
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <section class="film-post">
   <div class="container">
@@ -23,19 +25,13 @@ get_header();
 </div>
 </div>
     </div>
-    <?php if (get_field('trailer', $term)) { 
-                ?>
-                <div class="row justify-content-center">
+    <div class="row justify-content-center">
   <div class="col-md-12 trailer-col">
   <h2>Смотреть трейлер</h2>
  <?php echo the_field ('trailer') ?>
   </div>
 </div>
   </div>
-                <?php 
-                           } // end if value
-               ?>
-   
 </section>
 </div>
 <?php endwhile; else : ?>
