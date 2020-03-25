@@ -85,7 +85,12 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-top: 75px;
-   
+}
+
+.pos-f-t {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
 }
 
 .form-container  figure {
@@ -137,7 +142,9 @@ img {
     margin-top: 0;
 }
 
-
+.carousel {
+    filter: brightness(0.9);
+}
 
 .carousel-caption {
     bottom: 15%;
@@ -403,11 +410,12 @@ section {
 
 
 .bg-dark {
-    background-color: #000 !important;
+    background-color: #0000 !important;
     text-align: center;
     list-style: none;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 1%
 
 }
 
@@ -452,6 +460,7 @@ section {
 .wpcf7-text {
     border: none;
     border-bottom: 1px solid;
+    width: 250px;
 }
 
 .wpcf7-text :active, :hover, :focus {
@@ -668,6 +677,26 @@ section {
         
         
         
+        }
+
+        @media (min-width: 0px) and (max-width: 670px) {
+            .carousel-caption {
+                bottom: 3%;
+            }
+
+            .film-title {
+                font-size: 35px;
+            }
+        }
+
+        @media (min-width: 0px) and (max-width: 500px) {
+            .pos-f-t {
+                position: inherit;
+            }   
+
+            .bg-dark {
+                background-color: #000 !important;
+            }
         }
 
 

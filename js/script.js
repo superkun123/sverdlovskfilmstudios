@@ -12,14 +12,14 @@ $(document).ready(function () {
         $(first).attr("src", $(first).attr("src"));
        }
 
-       if (localStorage.getItem('commertialShowed')) {
+      //  if (localStorage.getItem('commertialShowed')) {
 
-       } else {
-        setTimeout(function(){
-          $('.commertial').modal('show')
-          localStorage.setItem('commertialShowed', '1')
-        }, 2000);
-       }
+      //  } else {
+      //   setTimeout(function(){
+      //     $('.commertial').modal('show')
+      //     localStorage.setItem('commertialShowed', '1')
+      //   }, 2000);
+      //  }
 
        document.addEventListener( 'wpcf7mailsent', function( event ) {
         alert('форма отправлена')
