@@ -134,7 +134,7 @@ get_header();
      </div>
      <div class="col-md-6">
      <figure>
-     <img src="<?php echo get_template_directory_uri() ?>/img/call.png" alt="">
+     <!-- <img src="<?php echo get_template_directory_uri() ?>/img/call.png" alt=""> -->
      </figure>
      </div>
    

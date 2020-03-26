@@ -12,6 +12,12 @@ $(document).ready(function () {
         $(first).attr("src", $(first).attr("src"));
        }
 
+       $('.navbar-toggler').click( function () {
+         $('.bg-dark').toggleClass('bg-dark-header-home')
+       })
+
+
+
       //  if (localStorage.getItem('commertialShowed')) {
 
       //  } else {
@@ -20,10 +26,6 @@ $(document).ready(function () {
       //     localStorage.setItem('commertialShowed', '1')
       //   }, 2000);
       //  }
-
-       document.addEventListener( 'wpcf7mailsent', function( event ) {
-        alert('форма отправлена')
-    }, false );
 
   
  });

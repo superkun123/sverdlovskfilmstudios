@@ -18,7 +18,11 @@ Template Post Type:  page
 */
 
 
-get_header();
+if ( is_home() ){
+	get_header('home');
+} else {
+	get_header();
+}
 ?>
 
 <main>

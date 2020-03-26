@@ -87,11 +87,7 @@ a:hover {
     margin-top: 75px;
 }
 
-.pos-f-t {
-    position: absolute;
-    z-index: 99;
-    width: 100%;
-}
+
 
 .form-container  figure {
     max-width: 550px;
@@ -216,6 +212,12 @@ img {
 .blog-row .our-films {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+
+
+.black {
+    background: #000 !important;
 }
 
 .kino-posts {
@@ -408,8 +410,21 @@ section {
     justify-content: center;
 }
 
+.header-home .pos-f-t {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
 
-.bg-dark {
+.header-home .collapse {
+    background-color: #000;
+}
+
+.header-home .collapsing {
+    background-color: #000;
+}
+
+.header-home .bg-dark {
     background-color: #0000 !important;
     text-align: center;
     list-style: none;
@@ -419,6 +434,19 @@ section {
 
 }
 
+.header-home .pos-f-t .bg-dark-header-home {
+    background-color: #000 !important;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+    text-align: center;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%
+
+}
 
 .sub-menu li a {
     font-size: 20px;
@@ -556,6 +584,10 @@ section {
     font-weight: bold;
 }
 
+.submit:hover {
+    background: #000;
+}
+
 
 
 
@@ -584,6 +616,7 @@ section {
         height: 100%;
 
     }
+
 
 }
 
@@ -689,14 +722,15 @@ section {
             }
         }
 
-        @media (min-width: 0px) and (max-width: 500px) {
-            .pos-f-t {
+        @media (min-width: 0px) and (max-width: 800px) {
+            .header-home .pos-f-t {
                 position: inherit;
             }   
 
-            .bg-dark {
+            .header-home .bg-dark {
                 background-color: #000 !important;
             }
+
         }
 
 
